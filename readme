@@ -1,0 +1,163 @@
+# Liquidity Pool + Fibonacci Tool Strategy V1
+
+## Overview
+
+This strategy combines the **Liquidity Pool Indicator** with **Fibonacci Retracement Levels (0.50 and 0.618)** to identify potential long and short trading opportunities.
+
+### Recommended Markets
+
+* **Primary:** Gold (XAUUSD / XAUUSDT)
+* **Secondary:** Bitcoin (BTCUSD / BTCUSDT)
+
+### Timeframe
+
+* Liquidity Pool signals are based on a **3-minute market structure**.
+* Apply this strategy on a **1-minute chart**.
+* Best performance is generally observed on **Gold**.
+
+---
+
+# Requirements
+
+## 1. Liquidity Pool Indicator
+
+### Indicator Settings
+
+Configure the Liquidity Pool Indicator according to the screenshots below:
+
+#### General Settings
+
+![Liquidity Pool Settings 1](Screenshot%202026-06-20%20105157.png)
+
+![Liquidity Pool Settings 2](Screenshot%202026-06-20%20105130.png)
+
+#### Style Settings
+
+![Liquidity Pool Style 1](Screenshot%202026-06-20%20105140.png)
+
+![Liquidity Pool Style 2](Screenshot%202026-06-20%20105122.png)
+
+### Indicator Source
+
+* Indicator Code: Check the provided source code file.
+* Original TradingView Indicator:
+  https://www.tradingview.com/v/lsPC5KcW/
+
+> **Note:** The sample code included in this repository is not the original indicator. Please use the official indicator and configure it using the settings shown above.
+
+---
+
+## 2. Fibonacci Tool
+
+### Fibonacci Settings
+
+Configure the Fibonacci tool according to the following screenshot:
+
+![Fibonacci Settings](image.png)
+
+### Required Fibonacci Levels
+
+* 0.50
+* 0.618
+
+---
+
+# Setup Instructions
+
+## Step 1 – Apply the Indicator
+
+1. Add the Liquidity Pool Indicator to your chart.
+2. Configure all settings exactly as shown in the screenshots.
+
+## Step 2 – Open the Chart
+
+Use a **1-minute timeframe** on:
+
+* Gold (XAUUSD / XAUUSDT) — Recommended
+* Bitcoin (BTCUSD / BTCUSDT)
+
+---
+
+# Trading Rules
+
+## Long Setup (Buy)
+
+### Conditions
+
+1. Wait for a **green Liquidity Pool line** to appear below the current price.
+
+2. Draw the Fibonacci retracement from:
+
+   **Swing High → Swing Low**
+
+3. The **Swing Low** must align with the green Liquidity Pool line.
+
+### Entry Zone
+
+Look for price reactions near:
+
+* 0.50 Fibonacci level
+* 0.618 Fibonacci level
+
+### Trade Direction
+
+* Buy (Long)
+
+---
+
+## Short Setup (Sell)
+
+### Conditions
+
+1. Wait for a **red Liquidity Pool line** to appear above the current price.
+
+2. Draw the Fibonacci retracement from:
+
+   **Swing Low → Swing High**
+
+3. The **Swing High** must align with the red Liquidity Pool line.
+
+### Entry Zone
+
+Look for price reactions near:
+
+* 0.50 Fibonacci level
+* 0.618 Fibonacci level
+
+### Trade Direction
+
+* Sell (Short)
+
+---
+
+# Strategy Summary
+
+## Long Trade
+
+* Green Liquidity Pool line appears below price.
+* Draw Fibonacci from Swing High to Swing Low.
+* Swing Low must match the green Liquidity Pool level.
+* Watch the 0.50 and 0.618 Fibonacci levels for entry opportunities.
+
+## Short Trade
+
+* Red Liquidity Pool line appears above price.
+* Draw Fibonacci from Swing Low to Swing High.
+* Swing High must match the red Liquidity Pool level.
+* Watch the 0.50 and 0.618 Fibonacci levels for entry opportunities.
+
+---
+
+# Notes
+
+* Designed primarily for Gold trading.
+* Can also be used on Bitcoin.
+* Always use proper risk management.
+* Consider adding stop-loss and take-profit rules that fit your trading style.
+* Follow the indicator and Fibonacci settings exactly as shown in the screenshots for best results.
+
+---
+
+# Disclaimer
+
+This strategy is provided for educational purposes only and should not be considered financial advice. Always test any trading strategy on a demo account before using real funds.
